@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:100");
+
+/* download font and install from here : https://font.download/font/ocr-a-bt */
+
+@font-face {
+  font-family: "OCR-A BT";
+  src: local(
+    "OCR-A BT"
+  ); /* This uses the font installed on the local machine */
+}
+
+html,
+body {
+  /* font-family: "Roboto Mono", monospace; */
+  font-family: "OCR-A BT", "Roboto Mono";
+  /* background: #212121; */
+  background: #080909;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  /* color: #fafafa; */
+  color: #d01200;
+}
+
+.dud {
+  color: #757575;
+}
